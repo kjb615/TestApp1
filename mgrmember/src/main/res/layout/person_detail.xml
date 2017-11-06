@@ -1,0 +1,45 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    tools:context="sss.test.com.mgrmember.PersonDetailFragment">
+
+    <TextView
+        android:id="@+id/detail_tv_idx"
+        style="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/detail_tv_height"
+        android:padding="8dp"
+        android:textIsSelectable="true"
+         />
+
+    <TextView
+        android:id="@+id/detail_tv_id"
+        style="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/detail_tv_height"
+        android:padding="8dp"
+        android:textIsSelectable="true"
+        />
+
+    <TextView
+        android:id="@+id/detail_tv_name"
+        style="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/detail_tv_height"
+        android:padding="8dp"
+        android:textIsSelectable="true"
+        />
+
+    <TextView
+        android:id="@+id/detail_tv_addr"
+        style="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/detail_tv_height"
+        android:padding="8dp"
+        android:textIsSelectable="true"
+        />
+
+</LinearLayout>

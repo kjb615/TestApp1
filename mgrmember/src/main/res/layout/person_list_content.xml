@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/person_list_content_tv_idx"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:background="@color/bg_list_content1"/>
+
+    <TextView
+        android:id="@+id/person_list_content_tv_id"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:background="@color/bg_list_content2"/>
+
+    <TextView
+        android:id="@+id/person_list_content_tv_name"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:background="@color/bg_list_content3"/>
+
+    <TextView
+        android:id="@+id/person_list_content_tv_addr"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:background="@color/bg_list_content2"/>
+
+</LinearLayout>
